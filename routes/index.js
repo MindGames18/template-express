@@ -8,7 +8,7 @@ router.get('/', function (req, res, next) {
 });
 
 router.get('/test', (req, res) => {
-  let x = "Your response has been noted :) "
+  let x = "Ninjas have been dispatched..... >:) "
   res.status(200).send(x)
 })
 
